@@ -89,9 +89,10 @@ sudo apt-get install vlc mplayer-nogui mozilla-mplayer mplayerthumbs smplayer
 #  yakuake 终端工具
 #  htop    用来查看进程，内存和IO负载。
 #  curl    传输下载文件工具
+#  krusader超好用的kde下的多窗口文件管理器
 #-------------------------------------------
 sudo apt-get install --force-yes  -y yakuake htop lrzsz sysstat sshpass curl wget nmap nload tree lynx iptraf
-
+sudo apt-get install krusader
 #安装ubuntu-tweak
 #sudo add-apt-repository ppa:tualatrix/ppa
 sudo apt-get install ubuntu-tweak --force-yes  -y
