@@ -1,0 +1,305 @@
+;; Object allc/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "allc/"
+  :tables (list 
+   (semanticdb-table "krx111a0.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("assert.h" include (:system-flag t) nil [1 20])
+            ("stdio.h" include (:system-flag t) nil [21 39])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [50 55]))                  
+                :type "int")
+                nil [41 1913]))          
+    :file "krx111a0.c"
+    :pointmax 1917
+    :fsize 1992
+    :lastmodtime '(14697 60602)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10200.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 329]))          
+    :file "krx10200.c"
+    :pointmax 331
+    :fsize 342
+    :lastmodtime '(14560 37004)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10300.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 326]))          
+    :file "krx10300.c"
+    :pointmax 328
+    :fsize 349
+    :lastmodtime '(14560 48378)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10400.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 334]))          
+    :file "krx10400.c"
+    :pointmax 335
+    :fsize 355
+    :lastmodtime '(14560 49108)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10500.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 334]))          
+    :file "krx10500.c"
+    :pointmax 336
+    :fsize 357
+    :lastmodtime '(14560 50314)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10501.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 326]))          
+    :file "krx10501.c"
+    :pointmax 327
+    :fsize 345
+    :lastmodtime '(14560 50374)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx80600.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [245 264])
+            ("string.h" include (:system-flag t) nil [265 284])
+            ("mycalloc" function
+               (:pointer 1
+                :arguments 
+                  ( ("nmemb" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [474 487])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [488 500]))                  
+                :type "void")
+                nil [459 770])
+            ("stdio.h" include (:system-flag t) nil [806 824])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [835 840]))                  
+                :type "int")
+                nil [826 1153]))          
+    :file "krx80600.c"
+    :pointmax 1156
+    :fsize 1222
+    :lastmodtime '(14623 13616)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx80401.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("SEEK_SET" variable (:constant-flag t) nil [368 376])
+            ("SEEK_CUR" variable (:constant-flag t) nil [387 395])
+            ("SEEK_END" variable (:constant-flag t) nil [406 414])
+            ("fseek" function
+               (:arguments 
+                  ( ("f" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [428 436])
+                    ("offset" variable (:type "long") (reparse-symbol arg-sub-list) [437 449])
+                    ("whence" variable (:type "int") (reparse-symbol arg-sub-list) [450 461]))                  
+                :type "int")
+                nil [418 1645]))          
+    :file "krx80401.c"
+    :pointmax 1647
+    :fsize 1702
+    :lastmodtime '(14697 60606)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("SEEK_END" . ((number "2" 415 . 416)))
+          ("SEEK_CUR" . ((number "1" 396 . 397)))
+          ("SEEK_SET" . ((number "0" 377 . 378)))
+          )
+
+    )
+   (semanticdb-table "krx10100.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 79]))          
+    :file "krx10100.c"
+    :pointmax 81
+    :fsize 88
+    :lastmodtime '(14560 35694)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10502.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [58 216]))          
+    :file "krx10502.c"
+    :pointmax 217
+    :fsize 229
+    :lastmodtime '(15107 41800)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10900.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 378]))          
+    :file "krx10900.c"
+    :pointmax 380
+    :fsize 409
+    :lastmodtime '(14563 59672)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx10901.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [48 693]))          
+    :file "krx10901.c"
+    :pointmax 696
+    :fsize 724
+    :lastmodtime '(15107 42348)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "KRX10902.C"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [30 35]))                  
+                :type "int")
+                nil [21 299]))          
+    :file "KRX10902.C"
+    :pointmax 300
+    :fsize 319
+    :lastmodtime '(15499 45484)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx11000.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [125 143])
+            ("main" function (:type "int") nil [145 619]))          
+    :file "krx11000.c"
+    :pointmax 621
+    :fsize 657
+    :lastmodtime '(14697 60602)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx11200.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [29 34]))                  
+                :type "int")
+                nil [20 365]))          
+    :file "krx11200.c"
+    :pointmax 367
+    :fsize 393
+    :lastmodtime '(14099 35820)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "krx11300.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1389 1407])
+            ("MAXWORDLEN" variable (:constant-flag t) nil [1417 1427])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1441 1446]))                  
+                :type "int")
+                nil [1432 3109]))          
+    :file "krx11300.c"
+    :pointmax 3111
+    :fsize 3234
+    :lastmodtime '(14957 17986)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("MAXWORDLEN" . ((number "10" 1428 . 1430)))
+          )
+
+    )
+   (semanticdb-table "krx11400.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("NUM_CHARS" variable (:constant-flag t) nil [126 135])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [150 155]))                  
+                :type "int")
+                nil [141 1727]))          
+    :file "krx11400.c"
+    :pointmax 1729
+    :fsize 1825
+    :lastmodtime '(14577 8336)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("NUM_CHARS" . ((number "256" 136 . 139)))
+          )
+
+    )
+   (semanticdb-table "krx11500.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("FtoC" function
+               (:arguments 
+                  ( ("f" variable (:type "float") (reparse-symbol arg-sub-list) [32 40]))                  
+                :type "float")
+                nil [21 99])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [110 115]))                  
+                :type "int")
+                nil [101 389]))          
+    :file "krx11500.c"
+    :pointmax 391
+    :fsize 419
+    :lastmodtime '(14593 36606)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!zpc!work!linux_c_prog!allc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

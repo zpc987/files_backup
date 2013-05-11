@@ -1,0 +1,40 @@
+;; Object cpp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cpp/"
+  :tables (list 
+   (semanticdb-table "03_02.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("Point" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [58 66])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [68 76])
+                    ("x" variable (:type "int") (reparse-symbol classsubparts) [68 76])
+                    ("public" label nil (reparse-symbol classsubparts) [79 86])
+                    ("SetPoint" function
+                       (:arguments 
+                          ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [102 108])
+                            ("b" variable (:type "int") (reparse-symbol arg-sub-list) [109 115]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [88 137])
+                    ("Getx" function (:type "int") (reparse-symbol classsubparts) [139 162])
+                    ("Gety" function (:type "int") (reparse-symbol classsubparts) [164 188]))                  
+                :type "class")
+                nil [42 191])
+            ("main" function (:type "int") nil [193 410]))          
+    :file "03_02.cpp"
+    :pointmax 411
+    :fsize 410
+    :lastmodtime '(20362 41746)
+    :unmatched-syntax '((PUBLIC 79 . 85))
+    )
+   )
+  :file "!home!zpc!work!cpp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,139 @@
+;; Object linux_c_prog/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "linux_c_prog/"
+  :tables (list 
+   (semanticdb-table "example.cpp"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "example.cpp"
+    :pointmax 96
+    :fsize 95
+    :lastmodtime '(20818 53026)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "quick_find.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("N" variable (:constant-flag t) nil [28 29])
+            ("N" variable (:constant-flag t) nil [28 29])
+            ("main" function (:type "int") nil [34 462]))          
+    :file "quick_find.c"
+    :pointmax 423
+    :fsize 462
+    :lastmodtime '(20821 30594)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("N" . ((number "100" 30 . 33)))
+          )
+
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("all" function (:arguments ("clean" "compile")) nil [1 20])
+            ("compile" function nil nil [21 72])
+            ("clean" function nil nil [73 99]))          
+    :file "Makefile"
+    :pointmax 99
+    :fsize 98
+    :lastmodtime '(20821 35199)
+    :unmatched-syntax '((thing 81 . 98) (thing 79 . 88) (thing 79 . 88) (thing 80 . 80) (thing 78 . 78) (thing 78 . 78) (thing 31 . 61) (thing 31 . 61) (thing 7 . 45) (thing 30 . 30) (thing 30 . 30) (thing 12 . 19) (thing 7 . 14) (thing 6 . 11) (thing 6 . 6) (thing 6 . 6) (thing 4 . 5) (thing 1 . 4) (thing 1 . 1))
+    )
+   (semanticdb-table "hello_world.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [30 39])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 53]))                  
+                :type "int")
+                nil [21 195]))          
+    :file "hello_world.c"
+    :pointmax 196
+    :fsize 104
+    :lastmodtime '(20821 33762)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "quick_sort.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("a" variable
+               (:dereference 1
+                :type "int")
+                nil [24 49])
+            ("prt" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [61 67]))                  
+                :type "void")
+                nil [52 147])
+            ("exch" function
+               (:arguments 
+                  ( ("point1" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [159 171])
+                    ("point2" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [171 183]))                  
+                :type "void")
+                nil [149 264])
+            ("partition" function
+               (:arguments 
+                  ( ("a" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [280 288])
+                    ("l" variable (:type "int") (reparse-symbol arg-sub-list) [288 294])
+                    ("r" variable (:type "int") (reparse-symbol arg-sub-list) [294 300]))                  
+                :type "int")
+                nil [266 688])
+            ("quicksort" function
+               (:arguments 
+                  ( ("a" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [705 713])
+                    ("l" variable (:type "int") (reparse-symbol arg-sub-list) [713 719])
+                    ("r" variable (:type "int") (reparse-symbol arg-sub-list) [719 725]))                  
+                :type "void")
+                nil [690 852])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [863 872])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [873 886]))                  
+                :type "int")
+                nil [854 950]))          
+    :file "quick_sort.c"
+    :pointmax 951
+    :fsize 950
+    :lastmodtime '(20841 29084)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "getchar.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 113]))          
+    :file "getchar.c"
+    :pointmax 114
+    :fsize 113
+    :lastmodtime '(20851 53230)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!zpc!work!linux_c_prog!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,36 @@
+;; Object zc/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "zc/"
+  :tables (list 
+   (semanticdb-table "bubble_sort.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("LEN" variable (:constant-flag t) nil [29 32])
+            ("INDEX" variable (:constant-flag t) nil [46 51])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [66 75])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [76 89]))                  
+                :type "int")
+                nil [57 1389]))          
+    :file "bubble_sort.c"
+    :pointmax 1387
+    :fsize 1389
+    :lastmodtime '(20855 59283)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("LEN" . ((number "50" 35 . 37)))
+          ("INDEX" . ((number "500" 52 . 55)))
+          )
+
+    )
+   )
+  :file "!home!zpc!work!c!zc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )
