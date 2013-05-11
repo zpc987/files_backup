@@ -134,8 +134,9 @@ gem install jekyll
 
 #安装 latex
 sudo apt-get install texlive-full
-#latex的一个编辑器，可以不用安装，直接用vim替代
+#latex的一个编辑器
 #sudo apt-get install texmaker
+sudo apt-get install kile
 
 
 #git  
@@ -162,5 +163,7 @@ sudo apt-get -y install qt4-qmake
 #变为英文的方便在命令行中操作,如果安装的是英文系统，忽略。
 #       vi .config/user-dirs.dirs  
 
+#install xubuntu desktop
+sudo apt-get install xubuntu-desktop
 ####  
 echo -e "All install Over!!\n"  

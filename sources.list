@@ -1,0 +1,107 @@
+# deb cdrom:[Kubuntu 12.04.1 LTS _Precise Pangolin_ - Release amd64 (20120820.1)]/ dists/precise/main/binary-i386/
+
+# deb cdrom:[Kubuntu 12.04.1 LTS _Precise Pangolin_ - Release amd64 (20120820.1)]/ dists/precise/restricted/binary-i386/
+# deb cdrom:[Kubuntu 12.04.1 LTS _Precise Pangolin_ - Release amd64 (20120820.1)]/ precise main restricted
+
+#网易 Ubuntu 11.04 源（速度很快）
+deb http://ppa.launchpad.net/pdfmod-team/ppa/ubuntu natty main
+deb-src http://ppa.launchpad.net/pdfmod-team/ppa/ubuntu natty main
+
+deb http://mirrors.163.com/ubuntu/ natty main universe restricted multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty main universe restricted multiverse
+deb http://mirrors.163.com/ubuntu/ natty-security universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ natty-security universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ natty-updates universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ natty-proposed universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ natty-proposed universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ natty-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ natty-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ natty-updates universe main multiverse restricted
+#骨头源，骨头源是bones7456架设的一个Ubuntu源 ，提供ubuntu,deepin 
+deb http://ubuntu.srt.cn/ubuntu/ precise main universe restricted multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ precise main universe restricted multiverse
+deb http://ubuntu.srt.cn/ubuntu/ precise-security universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ precise-security universe main multiverse restricted
+
+#mirror.lupaworld.com的源，速度很快 
+deb http://mirror.lupaworld.com/ubuntu/archive/ precise main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/archive/ precise-security main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/archive/ precise-updates main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/archive/ precise-backports main restricted universe multiverse
+deb http://mirror.lupaworld.com/ubuntu/ubuntu-cn/ precise main restricted universe multiverse
+
+#ubuntu.cn99.com源（推荐）: 
+deb http://ubuntu.cn99.com/ubuntu/ precise main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu-cn/ precise main restricted universe multiverse
+#上海交通大学
+deb http://ftp.sjtu.edu.cn/ubuntu/ natty main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ natty-backports main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ natty-proposed main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ natty-security main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ natty-updates main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu-cn/ natty main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ natty main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ natty-backports main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ natty-proposed main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ natty-security main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ natty-updates main multiverse restricted universe
+#中国科技大学
+deb http://debian.ustc.edu.cn/ubuntu/ natty main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ natty-backports restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ natty-proposed main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ natty-security main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ natty-updates main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ natty main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ natty-backports main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ natty-proposed main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ natty-security main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ natty-updates main restricted universe multiverse
+
+# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+# newer versions of the distribution.
+deb http://cn.archive.ubuntu.com/ubuntu/ precise main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ precise main restricted
+
+## Major bug fix updates produced after the final release of the
+## distribution.
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team. Also, please note that software in universe WILL NOT receive any
+## review or updates from the Ubuntu security team.
+deb http://cn.archive.ubuntu.com/ubuntu/ precise universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ precise universe
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu 
+## team, and may not be under a free licence. Please satisfy yourself as to 
+## your rights to use the software. Also, please note that software in 
+## multiverse WILL NOT receive any review or updates from the Ubuntu
+## security team.
+deb http://cn.archive.ubuntu.com/ubuntu/ precise multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ precise multiverse
+
+## N.B. software from this repository may not have been tested as
+## extensively as that contained in the main release, although it includes
+## newer versions of some applications which may provide useful features.
+## Also, please note that software in backports WILL NOT receive any review
+## or updates from the Ubuntu security team.
+
+deb http://security.ubuntu.com/ubuntu precise-security main restricted
+deb-src http://security.ubuntu.com/ubuntu precise-security main restricted
+deb http://security.ubuntu.com/ubuntu precise-security universe
+deb-src http://security.ubuntu.com/ubuntu precise-security universe
+deb http://security.ubuntu.com/ubuntu precise-security multiverse
+deb-src http://security.ubuntu.com/ubuntu precise-security multiverse
+
+## Uncomment the following two lines to add software from Canonical's
+## 'partner' repository.
+## This software is not part of Ubuntu, but is offered by Canonical and the
+## respective vendors as a service to Ubuntu users.
+# deb http://archive.canonical.com/ubuntu precise partner
+# deb-src http://archive.canonical.com/ubuntu precise partner
+
+## This software is not part of Ubuntu, but is offered by third-party
+## developers who want to ship their latest software.
+deb http://extras.ubuntu.com/ubuntu precise main
+deb-src http://extras.ubuntu.com/ubuntu precise main
+
