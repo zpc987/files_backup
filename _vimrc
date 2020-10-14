@@ -1,5 +1,3 @@
-set langmenu=en_US
-let $LANG = 'en_US'
 set nocompatible              " be iMproved, required
 filetype off                  " required
 let mapleader = ","
@@ -34,10 +32,11 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim'}
 Plugin 'unite.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'jlanzarotta/bufexplorer'
-Plugin 'inkarkat/vim-ingo-library'
 Plugin 'inkarkat/vim-mark'
+Plugin 'inkarkat/vim-ingo-library'
+let g:mwDefaultHighlightingPalette = 'extended'
 "============================================================
+Plugin 'jlanzarotta/bufexplorer'
 Plugin 'grep.vim'
 "-----------------------------
 let grep_path = 'D:\program\mingw\bin'
@@ -58,7 +57,7 @@ let NERDTreeDirArrows=0
 let NERDTreeShowHidden= 1
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['^\.$[[dir]]', '^\.\.$[[dir]]']
-let NERDTreeSortOrder =['\.pl$','\.py$','\.rb$','\.c$', '\.cpp$','\.h$','\.v$','\.sv$','\.txt$', '*','\.swp$', '\.bak$', '\~$'] 
+let NERDTreeSortOrder =['\/$','\.pl$','\.py$','\.rb$','\.c$', '\.cpp$','\.h$','\.v$','\.sv$','\.txt$', '*','^\.', '\.bak$', '\~$'] 
 "============================================================
 Plugin 'scrooloose/nerdcommenter'
 "-----------------------------
@@ -201,6 +200,7 @@ imap <silent><F4> <C-O><F4>
 colorscheme desert
 set confirm
 set nu
+
 behave xterm
 au GUIEnter * simalt ~x
 
@@ -283,6 +283,9 @@ set backspace=2                      " 使回格键（backspace）正常处理indent, eol,
 set whichwrap+=<,>,h,l               " 允许backspace和光标键跨越行边界
 " set shortmess=atI                  " 启动的时候不显示援助索马里儿童的提示
 set report=0                         " 通过使用: commands命令，告诉我们文件的哪一行被改变过
+set noerrorbells                     " 不让vim发出讨厌的滴滴声
+set vb
+set vb t_vb=
 set fillchars=vert:\ ,stl:\ ,stlnc:\  " 在被分割的窗口间显示空白，便于阅读
 
 " 可以在buffer的任何地方使用鼠标
@@ -325,7 +328,7 @@ set expandtab           " 不要用空格代替制表符
 set smarttab            " 在行和段开始处使用制表符
 set textwidth=500
 set nowrap
-
+set belloff=all
 "-------------------------------------------------------------------
 if(win_flag)
 nmap <silent><leader>s :source $VIM/_vimrc<CR>
@@ -334,6 +337,7 @@ else
 nmap <silent><leader>s :source ~/.vimrc <Esc>
 nmap <silent><leader>v :e ~/.vimrc<CR>
 endif
+nnoremap <leader>p  :let @" = expand("%:p")<cr>o<esc>
 nmap <silent><leader>h :nohl<Esc>
 "--- add C like comment
 nmap <leader>a i/* <Esc>
@@ -348,7 +352,7 @@ vmap <C-c> "+y
 vmap <C-x> "+x
 nmap <C-v> "+gP
 imap <C-v> <C-o><C-v>
-nmap <C-s> :wa<Enter>
+nmap <C-s> :wall<Enter>
 imap <C-s> <C-o><C-s>
 nmap <C-z> :q<CR>
 nmap <M-c> :cn<CR> 
@@ -464,9 +468,6 @@ set foldlevel=99
 "" 用空格键来开关折叠
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zf%':'zO')<Enter>
 
-
-set noerrorbells
-set vb t_vb=
 "------------------------------------------------------------------
 "add #! for .pl files automaticaly
 "------------------------------------------------------------------
